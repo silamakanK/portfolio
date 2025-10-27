@@ -1,78 +1,81 @@
-import Image from "next/image";
-import { Geist, Geist_Mono } from "next/font/google";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+import Link from "next/link";
+import HeroSection from "@/components/HeroSection";
+import SkillsGrid from "@/components/SkillsGrid";
+import ProjectCard from "@/components/ProjectCard";
+import { projects } from "@/data/projects";
+import { useTranslations } from "@/context/LocaleContext";
 
 export default function Home() {
+  const { content } = useTranslations();
+  const featuredProjects = projects.slice(0, 2);
+
   return (
-    <div
-      className={`${geistSans.className} ${geistMono.className} flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black`}
-    >
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the index.js file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+    <div className="space-y-20">
+      <HeroSection />
+
+      <section className="grid gap-8 lg:grid-cols-[1.3fr_1fr]">
+        <SkillsGrid />
+        <div
+          className="rounded-3xl border p-8"
+          style={{ borderColor: "var(--border)", backgroundColor: "var(--panel)" }}
+        >
+          <h2 className="text-2xl font-semibold text-[var(--foreground)]">
+            {content.home.experiences.title}
+          </h2>
+          <p className="mt-4 text-sm leading-relaxed text-[var(--muted)]">
+            {content.home.experiences.intro}
           </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+          <div className="mt-6 space-y-4">
+            {content.home.experiences.cards.map(
+              ({ role, company, period, summary }) => (
+                <div
+                  key={`${role}-${company}`}
+                  className="rounded-2xl border p-4"
+                  style={{ borderColor: "var(--border)", backgroundColor: "var(--panel-muted)" }}
+                >
+                  <p className="text-sm font-semibold text-[var(--foreground)]">{role}</p>
+                  <p className="text-xs uppercase tracking-[0.3em] text-[var(--muted)]">
+                    {company} · {period}
+                  </p>
+                  <p className="mt-2 text-sm text-[var(--muted)]">{summary}</p>
+                </div>
+              ),
+            )}
+          </div>
+          <Link
+            href="/about"
+            className="mt-6 inline-flex items-center gap-2 rounded-full border px-5 py-3 text-sm font-semibold text-[var(--foreground)] transition hover:border-[var(--accent)]"
+            style={{ borderColor: "var(--border)" }}
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs/pages/getting-started?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+            {content.home.experiences.cta}
+          </Link>
         </div>
-      </main>
+      </section>
+
+      <section className="space-y-8">
+        <div className="flex flex-col items-start justify-between gap-4 md:flex-row md:items-center">
+          <div>
+            <h2 className="text-2xl font-semibold text-[var(--foreground)]">
+              {content.home.projects.title}
+            </h2>
+            <p className="mt-2 text-sm text-[var(--muted)]">
+              {content.home.projects.description}
+            </p>
+          </div>
+          <Link
+            href="/projects"
+            className="inline-flex items-center gap-2 rounded-full border px-5 py-3 text-sm font-semibold text-[var(--foreground)] transition hover:border-[var(--accent)]"
+            style={{ borderColor: "var(--border)" }}
+          >
+            {content.home.projects.cta}
+          </Link>
+        </div>
+        <div className="grid gap-6 md:grid-cols-2">
+          {featuredProjects.map((project, index) => (
+            <ProjectCard key={project.title} project={project} index={index} />
+          ))}
+        </div>
+      </section>
     </div>
   );
 }
