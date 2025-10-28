@@ -25,7 +25,7 @@ export default function App({ Component, pageProps }) {
         <title>Silamakan KAMISSOKO | Lead Développeur Full Stack</title>
         <meta
           name="description"
-          content="Portfolio de Silamakan KAMISSOKO, Lead Développeur Full Stack en alternance à l’EEMI Paris."
+          content="Portfolio de Silamakan KAMISSOKO, Développeur Full Stack à l’EEMI Paris."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>

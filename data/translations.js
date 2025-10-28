@@ -7,70 +7,70 @@ export const translations = {
         projects: "Projets",
         contact: "Contact",
       },
-      brand: "Silamakan K.",
+      brand: "Silamakan KAMISSOKO",
       menu: {
         open: "Ouvrir la navigation",
         close: "Fermer la navigation",
       },
     },
     hero: {
-      badge: "Lead Développeur Full Stack · Alternance EEMI",
+      badge: "Développeur Full Stack · Mastère EEMI",
       name: "Silamakan KAMISSOKO",
       description:
-        "Passionné par le développement web, la cybersécurité et l’intégration d’intelligence artificielle, j’accompagne les équipes produit pour livrer des applications performantes, robustes et orientées business.",
+        "Étudiant en 2e année de Mastère Lead Développeur Full Stack (Bac+5), passionné par la création d’applications performantes et sécurisées. J’allie expertise technique et rigueur pour concevoir des solutions fiables, évolutives et orientées utilisateur.",
       highlights: [
-        "Développement web & mobile",
-        "Cybersécurité appliquée",
-        "Intégration IA & automatisation",
+        "Développement Web & Mobile",
+        "Cybersécurité et DevOps",
+        "Intégration d’IA et automatisation",
       ],
-      ctaProjects: "Voir mes projets",
-      ctaContact: "Discuter de votre projet",
-      locationTag: "Basé à Stains, Île-de-France",
+      ctaProjects: "Découvrir mes projets",
+      ctaContact: "Me contacter",
+      locationTag: "Paris, Île-de-France",
       rhythmTag: "3 semaines en entreprise · 1 semaine à l’école",
-      availabilityTag: "Disponible dès septembre 2025",
-      portraitRole: "Lead Développeur Full Stack",
-      portraitDegree: "Master EEMI · 2024 — 2026",
+      availabilityTag: "Disponible à partir de septembre 2025",
+      portraitRole: "Développeur Full Stack",
+      portraitDegree: "Mastère Lead Dev Full Stack · EEMI Paris",
     },
     home: {
       skills: {
-        title: "Compétences clés",
+        title: "Compétences principales",
         description:
-          "Des stacks frontend, backend et DevOps pour concevoir, sécuriser et déployer des applications modernes.",
+          "Du frontend au backend, en passant par la cybersécurité et le DevOps, j’intègre les meilleures pratiques pour livrer des applications modernes et stables.",
       },
       experiences: {
-        title: "Alternance Lead Développeur · Master EEMI",
+        title: "Expériences professionnelles",
         intro:
-          "J’évolue actuellement à l’EEMI (Master 2024 — 2026) avec un rythme d’alternance de trois semaines en entreprise et une semaine à l’école. Mon objectif : accélérer les roadmaps produit, sécuriser les architectures et déployer des solutions fiables en production.",
+          "Mes stages et missions m’ont permis d’intervenir sur des contextes variés — de la conception d’API sécurisées à la mise en production d’applications web performantes.",
         cards: [
           {
             role: "Développeur Backend Ruby on Rails",
             company: "Akilee · Dakar",
             period: "Mai 2024 — Juillet 2024",
             summary:
-              "Conception d’API REST sécurisées, automatisation des tests et optimisation des échanges de données entre équipes.",
+              "Développement d’API REST sécurisées, optimisation des échanges entre équipes front-end et back-end, tests unitaires et correction proactive des bugs.",
           },
           {
-            role: "Développeur Fullstack",
-            company: "Soleil Sura · Dakar",
+            role: "Développeur Full Stack",
+            company: "Soelog Suarl · Dakar",
             period: "Mars 2023 — Juillet 2023",
             summary:
-              "Livraison de nouvelles fonctionnalités (PHP, Vue.js), optimisation des performances et réduction des bugs critiques.",
+              "Conception et intégration de nouvelles fonctionnalités PHP/HTML/CSS, amélioration des performances et maintenance évolutive des plateformes existantes.",
           },
           {
             role: "Développeur WordPress",
-            company: "Heboresenegal",
+            company: "Hebersenegal · Dakar",
             period: "Août 2022 — Février 2023",
             summary:
-              "Création de sites sur-mesure, sécurisation des applications existantes et accompagnement des clients sur leurs besoins digitaux.",
+              "Création de sites web sur mesure, correction des anomalies techniques, sécurisation et accompagnement client.",
           },
         ],
-        cta: "Découvrir mon parcours",
+        cta: "Voir tout mon parcours",
       },
       projects: {
         title: "Projets en vedette",
         description:
-          "Quelques réalisations marquantes qui illustrent mon approche produit, la qualité logicielle et la mise en production continue.",
-        cta: "Tous les projets",
+          "Découvrez quelques projets qui illustrent ma polyvalence, ma rigueur technique et ma passion pour le développement d’applications modernes.",
+        cta: "Voir tous les projets",
       },
     },
     skills: {
@@ -89,13 +89,13 @@ export const translations = {
     projectsPage: {
       title: "Projets",
       description:
-        "Une sélection de réalisations personnelles et professionnelles, avec un focus sur la qualité logicielle, la sécurité des données et l’orchestration de pipelines modernes.",
+        "Une sélection de projets personnels et académiques axés sur la performance, la sécurité et la qualité logicielle.",
     },
     about: {
       title: "À propos",
       paragraphs: [
-        "Je suis Silamakan KAMISSOKO, Lead Développeur Full Stack en alternance à l’EEMI Paris. Mon ambition : concevoir des produits web sécurisés, performants et centrés sur l’utilisateur, tout en accompagnant les équipes dans leurs process d’industrialisation.",
-        "Mes expériences en agence, en startup et en stage m’ont permis d’intervenir sur des contextes variés : refonte d’APIs critiques, création de dashboards temps réel, automatisation CI/CD et intégration de briques IA. J’apprends continuellement et je reste à l’affût des innovations pour accélérer les roadmaps produit.",
+        "Je suis Silamakan KAMISSOKO, étudiant en Mastère Lead Développeur Full Stack à l’EEMI Paris. Passionné par la technologie, j’aime concevoir des applications fiables, performantes et centrées sur l’expérience utilisateur.",
+        "Mon parcours entre le Sénégal et la France m’a permis d’acquérir une solide expérience technique, du développement backend au DevOps, tout en cultivant la rigueur, la collaboration et la veille technologique.",
       ],
       contactCard: {
         title: "Coordonnées",
@@ -103,22 +103,23 @@ export const translations = {
         phoneLabel: "Téléphone",
         locationLabel: "Localisation",
         availabilityLabel: "Disponibilité",
-        availabilityValue: "Alternance · 3 semaines en entreprise / 1 semaine à l’école",
+        availabilityValue:
+          "Alternance · 3 semaines en entreprise / 1 semaine à l’école",
       },
       education: {
         title: "Formations",
         description:
-          "Une double expérience académique entre la France et le Sénégal axée sur le développement d’applications performantes et sécurisées.",
+          "Un parcours académique orienté vers l’excellence technique et la cybersécurité appliquée.",
         items: [
           {
             title: "Mastère Lead Développeur Full Stack",
             school: "EEMI Paris",
             period: "2024 — 2026",
             bullets: [
-              "Développement web & mobile : React, Next.js, Flutter, Node.js, PHP, Go, SQL & NoSQL.",
-              "Architecture & APIs : conception sécurisée d’APIs, WebSocket, scalabilité cloud (AWS, GCP, Azure).",
-              "Cybersécurité : pentesting, chiffrement, RGPD, supervision applicative.",
-              "Gestion de projet & leadership : Scrum Master, pilotage d’équipes, méthodes agiles & budget.",
+              "Développement Web & Mobile : React, Next.js, Flutter, Node.js, PHP, Java, SQL & NoSQL",
+              "Architecture & API : conception sécurisée, WebSocket, scalabilité cloud (AWS, Azure, GCP)",
+              "Cybersécurité : pentesting, chiffrement, RGPD, supervision applicative",
+              "Méthodologies Agiles & Leadership : gestion d’équipe, Scrum, CI/CD et intégration continue",
             ],
           },
           {
@@ -126,8 +127,8 @@ export const translations = {
             school: "ESMT Dakar",
             period: "2019 — 2022",
             bullets: [
-              "Spécialisation en architectures distribuées, modèles de données, optimisation des performances.",
-              "Projets en équipe sur des sujets e-commerce, énergie et plateformes éducatives.",
+              "Spécialisation en architectures distribuées et optimisation des performances.",
+              "Projets collaboratifs sur des plateformes web et mobiles dans différents secteurs.",
             ],
           },
         ],
@@ -136,34 +137,34 @@ export const translations = {
         title: "Valeurs & soft skills",
         items: [
           {
-            title: "Fiabilité & Sécurité",
+            title: "Rigueur & Fiabilité",
             description:
-              "Prioriser les tests automatisés, le monitoring et la cybersécurité pour livrer des solutions robustes et conformes.",
+              "Je conçois chaque application avec un souci constant de qualité, de sécurité et de maintenabilité.",
           },
           {
-            title: "Esprit Produit",
+            title: "Collaboration & Esprit d’équipe",
             description:
-              "Comprendre les enjeux métiers, challenger les besoins et orienter le développement vers la valeur ajoutée réelle.",
+              "La réussite d’un projet passe par la communication, l’écoute et la complémentarité des profils techniques et fonctionnels.",
           },
           {
-            title: "Transmission & Leadership",
+            title: "Apprentissage continu",
             description:
-              "Mentorer les équipes, documenter les choix techniques et faciliter la collaboration entre profils tech et business.",
+              "Toujours en veille sur les nouvelles technologies, je cherche à améliorer mes compétences et à innover au quotidien.",
           },
         ],
       },
       cv: {
-        title: "CV détaillé",
+        title: "Mon CV",
         description:
-          "Vous souhaitez en savoir plus sur mes réalisations et mes responsabilités en entreprise ? Téléchargez mon CV complet au format PDF.",
+          "Retrouvez le détail de mon parcours, de mes projets et de mes compétences dans mon CV complet au format PDF.",
         cta: "Télécharger le CV",
-        note: "Lien externe · Remplacez-le par votre URL finale si nécessaire.",
+        note: "Lien externe · Cliquez pour ouvrir le fichier PDF.",
       },
     },
     contact: {
-      title: "Entrons en contact",
+      title: "Contactez-moi",
       intro:
-        "Une alternance dès septembre 2025 ou un besoin ponctuel ? Parlons-en ! Décrivez votre projet et je vous répondrai rapidement avec des propositions concrètes.",
+        "À la recherche d’un alternant dès septembre 2025 ou d’un collaborateur sur un projet web ? Discutons-en dès maintenant.",
       form: {
         nameLabel: "Nom",
         namePlaceholder: "Votre nom",
@@ -171,14 +172,14 @@ export const translations = {
         emailPlaceholder: "vous@entreprise.com",
         messageLabel: "Message",
         messagePlaceholder:
-          "Décrivez votre besoin, vos objectifs ou vos enjeux techniques.",
-        submit: "Envoyer le message",
+          "Décrivez votre projet ou vos besoins techniques ici.",
+        submit: "Envoyer",
         sending: "Envoi en cours...",
         feedback: "Merci ! Votre client mail va s’ouvrir pour finaliser l’envoi.",
       },
-      asideTitle: "Échanges rapides",
+      asideTitle: "Coordonnées directes",
       asideDescription:
-        "Disponible du lundi au vendredi · fuseau CET · réponse sous 48h ouvrées.",
+        "Disponible du lundi au vendredi · Réponse sous 48h ouvrées.",
       socials: {
         email: "Email",
         phone: "Téléphone",
@@ -193,7 +194,7 @@ export const translations = {
       },
     },
     footer: {
-      message: "Portfolio construit avec Next.js & TailwindCSS.",
+      message: "Portfolio conçu avec Next.js & TailwindCSS",
     },
     toggles: {
       theme: {
@@ -215,70 +216,70 @@ export const translations = {
         projects: "Projects",
         contact: "Contact",
       },
-      brand: "Silamakan K.",
+      brand: "Silamakan KAMISSOKO",
       menu: {
         open: "Open navigation",
         close: "Close navigation",
       },
     },
     hero: {
-      badge: "Lead Full-Stack Developer · EEMI Apprenticeship",
+      badge: "Full-Stack Developer · EEMI Master’s Program",
       name: "Silamakan KAMISSOKO",
       description:
-        "Passionate about web development, cybersecurity, and applied AI, I help product teams deliver performant, reliable, business-driven applications.",
+        "Master’s student in Lead Full-Stack Development (EEMI Paris, Bac+5), passionate about building secure, high-performance web and mobile applications. I combine technical expertise and attention to detail to design scalable, reliable, and user-focused digital products.",
       highlights: [
-        "Web & mobile development",
-        "Applied cybersecurity",
-        "AI integration & automation",
+        "Web & Mobile Development",
+        "Cybersecurity and DevOps",
+        "AI Integration & Automation",
       ],
       ctaProjects: "View my projects",
-      ctaContact: "Discuss your project",
-      locationTag: "Based in Stains, Île-de-France",
+      ctaContact: "Get in touch",
+      locationTag: "Based in Stains, Île-de-France, France",
       rhythmTag: "3 weeks in-company · 1 week at school",
       availabilityTag: "Available from September 2025",
-      portraitRole: "Lead Full-Stack Developer",
-      portraitDegree: "EEMI Master · 2024 — 2026",
+      portraitRole: "Full-Stack Developer",
+      portraitDegree: "Lead Developer Master’s Degree · EEMI Paris",
     },
     home: {
       skills: {
-        title: "Key skills",
+        title: "Core Skills",
         description:
-          "Frontend, backend, and DevOps stacks to design, secure, and deploy modern applications.",
+          "From frontend to backend, including DevOps and cybersecurity, I leverage modern technologies to deliver stable, secure, and high-performing applications.",
       },
       experiences: {
-        title: "Apprenticeship · Lead Developer · EEMI Master",
+        title: "Professional Experience",
         intro:
-          "I am currently enrolled at EEMI (Master 2024 — 2026) following a rhythm of three weeks in-company and one week at school. My goal: accelerate product roadmaps, secure architectures, and ship resilient solutions to production.",
+          "Through my internships and development projects, I have worked on backend APIs, frontend integrations, and production-ready applications with a strong focus on security and maintainability.",
         cards: [
           {
-            role: "Backend Developer Ruby on Rails",
+            role: "Backend Developer (Ruby on Rails)",
             company: "Akilee · Dakar",
             period: "May 2024 — July 2024",
             summary:
-              "Designed secure REST APIs, automated test suites, and optimised data exchanges across teams.",
+              "Developed secure REST APIs, implemented unit testing, and collaborated with frontend teams to optimize data exchange and fix critical issues.",
           },
           {
             role: "Full-Stack Developer",
-            company: "Soleil Sura · Dakar",
+            company: "Soelog Suarl · Dakar",
             period: "Mar 2023 — Jul 2023",
             summary:
-              "Delivered new PHP/Vue.js features, improved performance, and reduced critical bugs in production.",
+              "Designed and implemented new PHP/Vue.js features, optimized SQL queries, improved performance, and maintained production reliability.",
           },
           {
             role: "WordPress Developer",
-            company: "Heboresenegal",
+            company: "Hebersenegal · Dakar",
             period: "Aug 2022 — Feb 2023",
             summary:
-              "Built custom sites, secured existing applications, and supported clients with tailored digital solutions.",
+              "Developed custom websites, ensured code security, fixed bugs, and supported clients with technical documentation and guidance.",
           },
         ],
         cta: "Explore my journey",
       },
       projects: {
-        title: "Featured projects",
+        title: "Featured Projects",
         description:
-          "A glimpse of selected work highlighting my product mindset, code quality, and delivery pipelines.",
-        cta: "All projects",
+          "A selection of projects showcasing my versatility, technical rigor, and passion for building innovative web applications.",
+        cta: "See all projects",
       },
     },
     skills: {
@@ -297,13 +298,13 @@ export const translations = {
     projectsPage: {
       title: "Projects",
       description:
-        "A selection of personal and professional work focused on software quality, data security, and modern delivery pipelines.",
+        "A curated list of academic and personal projects focused on performance, security, and software quality.",
     },
     about: {
       title: "About",
       paragraphs: [
-        "I am Silamakan KAMISSOKO, a Lead Full-Stack Developer apprentice at EEMI Paris. My goal is to build secure, performant, user-centric products while helping teams scale their delivery practices.",
-        "Working across agencies, startups, and internships, I have tackled API redesigns, real-time dashboards, CI/CD automation, and AI integrations. I keep learning continuously and closely track innovation to accelerate product roadmaps.",
+        "I’m Silamakan KAMISSOKO, a Master’s student in Lead Full-Stack Development at EEMI Paris. Passionate about technology, I design secure and user-centered applications while continuously improving my technical and leadership skills.",
+        "My journey across Senegal and France has given me a strong technical foundation, from backend development to DevOps and cybersecurity, as well as a deep appreciation for teamwork, innovation, and continuous learning.",
       ],
       contactCard: {
         title: "Contact details",
@@ -316,17 +317,17 @@ export const translations = {
       education: {
         title: "Education",
         description:
-          "A dual academic background between France and Senegal focused on high-performing, secure applications.",
+          "An academic background focused on full-stack development, security, and high-performing systems.",
         items: [
           {
             title: "Lead Full-Stack Developer Master’s Degree",
             school: "EEMI Paris",
             period: "2024 — 2026",
             bullets: [
-              "Web & mobile development: React, Next.js, Flutter, Node.js, PHP, Go, SQL & NoSQL.",
-              "Architecture & APIs: secure API design, WebSocket, cloud scalability (AWS, GCP, Azure).",
-              "Cybersecurity: pentesting, encryption, GDPR, application monitoring.",
-              "Project management & leadership: Scrum Master, team coordination, agile budgeting.",
+              "Web & mobile development: React, Next.js, Flutter, Node.js, PHP, Java, SQL & NoSQL",
+              "Architecture & APIs: secure API design, WebSocket, and cloud scalability (AWS, Azure, GCP)",
+              "Cybersecurity: pentesting, encryption, GDPR compliance, and monitoring",
+              "Agile methodologies & leadership: Scrum Master, team management, CI/CD, and project delivery",
             ],
           },
           {
@@ -334,59 +335,58 @@ export const translations = {
             school: "ESMT Dakar",
             period: "2019 — 2022",
             bullets: [
-              "Specialised in distributed architectures, data modelling, and performance optimisation.",
-              "Team projects spanning e-commerce, energy, and educational platforms.",
+              "Specialized in distributed architectures, data modeling, and performance optimization.",
+              "Collaborative projects across sectors like education, e-commerce, and energy.",
             ],
           },
         ],
       },
       values: {
-        title: "Values & soft skills",
+        title: "Values & Soft Skills",
         items: [
           {
-            title: "Reliability & Security",
+            title: "Rigor & Reliability",
             description:
-              "Prioritising automated testing, monitoring, and security to deliver robust, compliant solutions.",
+              "Building secure and maintainable codebases through testing, monitoring, and clear documentation.",
           },
           {
-            title: "Product mindset",
+            title: "Collaboration & Team Spirit",
             description:
-              "Understanding business needs, challenging assumptions, and driving development towards real value.",
+              "Encouraging open communication and sharing knowledge to strengthen technical and business collaboration.",
           },
           {
-            title: "Knowledge sharing & leadership",
+            title: "Continuous Learning",
             description:
-              "Mentoring teams, documenting technical decisions, and fostering collaboration across tech and business profiles.",
+              "Staying up-to-date with emerging technologies and improving my technical stack to innovate efficiently.",
           },
         ],
       },
       cv: {
-        title: "Full resume",
+        title: "Resume",
         description:
-          "Want to dig into my achievements and responsibilities? Download the detailed PDF resume.",
+          "Download my complete resume to learn more about my background, projects, and technical skills.",
         cta: "Download the resume",
-        note: "External link · Replace with your final URL if needed.",
+        note: "External link · Opens the PDF file.",
       },
     },
     contact: {
-      title: "Get in touch",
+      title: "Get in Touch",
       intro:
-        "Looking for an apprentice from September 2025 or facing a specific challenge? Let's talk! Share your needs and I will reply quickly with concrete next steps.",
+        "Looking for a full-stack developer apprentice starting in September 2025, or want to collaborate on a web project? Let’s talk!",
       form: {
         nameLabel: "Name",
         namePlaceholder: "Your name",
         emailLabel: "Email",
         emailPlaceholder: "you@company.com",
         messageLabel: "Message",
-        messagePlaceholder:
-          "Tell me about your goals, challenges, or the project you have in mind.",
-        submit: "Send the message",
+        messagePlaceholder: "Describe your project or technical needs here.",
+        submit: "Send message",
         sending: "Sending...",
-        feedback: "Thanks! Your email client will open to finalise the message.",
+        feedback: "Thank you! Your email client will open to complete the message.",
       },
-      asideTitle: "Quick connect",
+      asideTitle: "Quick contact",
       asideDescription:
-        "Available Monday to Friday · CET · responses within 48 business hours.",
+        "Available Monday to Friday · CET timezone · replies within 48 hours.",
       socials: {
         email: "Email",
         phone: "Phone",
@@ -401,7 +401,7 @@ export const translations = {
       },
     },
     footer: {
-      message: "Portfolio built with Next.js & TailwindCSS.",
+      message: "Portfolio built with Next.js & TailwindCSS — © 2025 Silamakan K.",
     },
     toggles: {
       theme: {

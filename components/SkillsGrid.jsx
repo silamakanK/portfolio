@@ -1,5 +1,6 @@
 import {
   SiReact,
+  SiNextdotjs,
   SiVuedotjs,
   SiAngular,
   SiTailwindcss,
@@ -28,6 +29,7 @@ import { useTranslations } from "@/context/LocaleContext";
 
 const iconMap = {
   React: SiReact,
+  "Next.js": SiNextdotjs,
   "Vue.js": SiVuedotjs,
   Angular: SiAngular,
   TailwindCSS: SiTailwindcss,

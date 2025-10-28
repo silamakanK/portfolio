@@ -1,7 +1,7 @@
 export const skills = [
   {
     id: "frontend",
-    items: ["React", "Vue.js", "Angular", "TailwindCSS", "HTML/CSS/JS"],
+    items: ["React", "Next.js", "Vue.js", "Angular", "TailwindCSS", "HTML/CSS/JS"],
   },
   {
     id: "backend",
