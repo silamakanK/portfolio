@@ -46,29 +46,24 @@ export default function Contact() {
     setForm((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
     setStatus("sending");
 
-    const mailto = new URL("mailto:silamakankamissoko@gmail.com");
-    const subject = `${contact.email.subject} - ${form.name || "Portfolio"}`;
-    const bodyLines = [
-      contact.email.greeting,
-      "",
-      form.message,
-      "",
-      `${contact.email.senderLabel}: ${form.name}`,
-      `${contact.email.emailLabel}: ${form.email}`,
-    ];
-    mailto.searchParams.set("subject", subject);
-    mailto.searchParams.set("body", bodyLines.join("\n"));
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(form),
+      });
 
-    if (typeof window !== "undefined") {
-      window.location.href = mailto.toString();
+      if (!response.ok) throw new Error("Send failed");
+
+      setStatus("sent");
+      setForm({ name: "", email: "", message: "" });
+    } catch {
+      setStatus("error");
     }
-
-    setStatus("sent");
-    setForm({ name: "", email: "", message: "" });
   };
 
   return (
@@ -150,7 +145,10 @@ export default function Contact() {
               {status === "sending" ? contact.form.sending : contact.form.submit}
             </button>
             {status === "sent" && (
-              <p className="text-xs text-[var(--muted)]">{contact.form.feedback}</p>
+              <p className="text-xs text-green-400">{contact.form.feedback}</p>
+            )}
+            {status === "error" && (
+              <p className="text-xs text-red-400">{contact.form.error}</p>
             )}
           </form>
         </div>

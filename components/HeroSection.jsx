@@ -1,7 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
-import { FiArrowRight } from "react-icons/fi";
+import { FiArrowRight, FiSmartphone, FiServer, FiBox } from "react-icons/fi";
 import { useTranslations } from "@/context/LocaleContext";
+
+const highlightIcons = [FiSmartphone, FiServer, FiBox];
 
 export default function HeroSection() {
   const { content } = useTranslations();
@@ -11,12 +13,12 @@ export default function HeroSection() {
     <section className="grid gap-10 lg:grid-cols-[1.4fr_1fr] lg:items-center">
       <div className="space-y-8">
         <span
-          className="inline-flex items-center gap-2 rounded-full px-4 py-2 text-xs font-medium uppercase tracking-wider text-[var(--muted)]"
+          className="animate-fade-up-1 inline-flex items-center gap-2 rounded-full px-4 py-2 text-xs font-medium uppercase tracking-wider text-[var(--muted)]"
           style={{ backgroundColor: "var(--panel-muted)" }}
         >
           {hero.badge}
         </span>
-        <div>
+        <div className="animate-fade-up-2">
           <h1 className="text-4xl font-semibold tracking-tight text-[var(--foreground)] md:text-5xl">
             {hero.name}
           </h1>
@@ -25,19 +27,25 @@ export default function HeroSection() {
           </p>
         </div>
 
-        <div className="grid gap-3 sm:grid-cols-2">
-          {hero.highlights.map((item) => (
-            <div
-              key={item}
-              className="rounded-2xl border p-4 text-sm text-[var(--muted)]"
-              style={{ borderColor: "var(--border)", backgroundColor: "var(--panel)" }}
-            >
-              {item}
-            </div>
-          ))}
+        <div className="animate-fade-up-3 grid gap-3 sm:grid-cols-2">
+          {hero.highlights.map((item, i) => {
+            const Icon = highlightIcons[i];
+            return (
+              <div
+                key={item}
+                className="flex items-center gap-3 rounded-2xl border p-4 text-sm text-[var(--muted)]"
+                style={{ borderColor: "var(--border)", backgroundColor: "var(--panel)" }}
+              >
+                <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-[var(--accent)]/15 text-[var(--accent)]">
+                  <Icon size={16} />
+                </span>
+                {item}
+              </div>
+            );
+          })}
         </div>
 
-        <div className="flex flex-wrap items-center gap-4">
+        <div className="animate-fade-up-4 flex flex-wrap items-center gap-4">
           <Link
             href="/projects"
             className="inline-flex items-center gap-2 rounded-full bg-[var(--accent)] px-5 py-3 text-sm font-semibold text-white transition hover:shadow-lg hover:shadow-[var(--accent)]/40"
@@ -55,7 +63,7 @@ export default function HeroSection() {
           </Link>
         </div>
 
-        <div className="flex flex-wrap gap-3 text-xs font-medium uppercase tracking-widest text-[var(--muted)]">
+        <div className="animate-fade-up-5 flex flex-wrap gap-3 text-xs font-medium uppercase tracking-widest text-[var(--muted)]">
           <span
             className="rounded-full border px-3 py-1"
             style={{ borderColor: "var(--border)" }}
@@ -77,7 +85,7 @@ export default function HeroSection() {
         </div>
       </div>
 
-      <div className="relative mx-auto h-72 w-72 overflow-hidden rounded-[2.5rem] border border-white/10 bg-gradient-to-br from-[var(--accent)]/30 via-transparent to-purple-900/40 shadow-2xl">
+      <div className="animate-fade-up relative mx-auto h-72 w-72 overflow-hidden rounded-[2.5rem] border border-white/10 bg-gradient-to-br from-[var(--accent)]/30 via-transparent to-purple-900/40 shadow-2xl">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(99,102,241,0.2),transparent_60%),radial-gradient(circle_at_80%_0%,rgba(244,114,182,0.25),transparent_55%)]" />
         <Image
           src="/images/profile.jpg"

@@ -17,17 +17,17 @@ export const translations = {
       badge: "Développeur Full Stack · Mastère EEMI",
       name: "Silamakan KAMISSOKO",
       description:
-        "Étudiant en 2e année de Mastère Lead Développeur Full Stack (Bac+5), passionné par la création d’applications performantes et sécurisées. J’allie expertise technique et rigueur pour concevoir des solutions fiables, évolutives et orientées utilisateur.",
+        "Développeur Full Stack en recherche d’un stage de fin d’études (Bac+5, EEMI Paris). Maîtrise des architectures backend (Java Spring Boot, Node.js, Ruby on Rails), du développement web & mobile (Flutter, Kotlin) et des outils DevOps. À l’aise en environnement Agile, je vise un projet à fort impact technique.",
       highlights: [
-        "Développement Web & Mobile",
-        "Cybersécurité et DevOps",
-        "Intégration d’IA et automatisation",
+        "Développement Web & Mobile (Flutter, Kotlin)",
+        "Backend & API REST sécurisées",
+        "DevOps & Cloud (Docker, CI/CD)",
       ],
       ctaProjects: "Découvrir mes projets",
       ctaContact: "Me contacter",
       locationTag: "Paris, Île-de-France",
-      rhythmTag: "3 semaines en entreprise · 1 semaine à l’école",
-      availabilityTag: "Disponible à partir de septembre 2025",
+      rhythmTag: "Stage de fin d’études · Bac+5",
+      availabilityTag: "Disponible dès maintenant",
       portraitRole: "Développeur Full Stack",
       portraitDegree: "Mastère Lead Dev Full Stack · EEMI Paris",
     },
@@ -47,21 +47,21 @@ export const translations = {
             company: "Akilee · Dakar",
             period: "Mai 2024 — Juillet 2024",
             summary:
-              "Développement d’API REST sécurisées, optimisation des échanges entre équipes front-end et back-end, tests unitaires et correction proactive des bugs.",
+              "Conception d’API REST sécurisées en Ruby on Rails, implémentation de tests unitaires, résolution de bugs critiques en production et optimisation des endpoints JSON en environnement Agile Scrum.",
           },
           {
             role: "Développeur Full Stack",
             company: "Soelog Suarl · Dakar",
             period: "Mars 2023 — Juillet 2023",
             summary:
-              "Conception et intégration de nouvelles fonctionnalités PHP/HTML/CSS, amélioration des performances et maintenance évolutive des plateformes existantes.",
+              "Développement de fonctionnalités fullstack PHP/JavaScript, optimisation SQL et mise en cache pour améliorer les performances, participation active aux revues de code et cérémonies agiles.",
           },
           {
             role: "Développeur WordPress",
             company: "Hebersenegal · Dakar",
             period: "Août 2022 — Février 2023",
             summary:
-              "Création de sites web sur mesure, correction des anomalies techniques, sécurisation et accompagnement client.",
+              "Conception et développement de sites WordPress sur mesure, maintenance corrective, sécurisation des plateformes et rédaction de documentation technique.",
           },
         ],
         cta: "Voir tout mon parcours",
@@ -77,6 +77,7 @@ export const translations = {
       categories: {
         frontend: "Frontend",
         backend: "Backend",
+        mobile: "Mobile",
         databases: "Bases de données",
         devops: "DevOps",
         tools: "Outils",
@@ -103,8 +104,7 @@ export const translations = {
         phoneLabel: "Téléphone",
         locationLabel: "Localisation",
         availabilityLabel: "Disponibilité",
-        availabilityValue:
-          "Alternance · 3 semaines en entreprise / 1 semaine à l’école",
+        availabilityValue: "Stage de fin d’études · Disponible dès maintenant",
       },
       education: {
         title: "Formations",
@@ -164,7 +164,7 @@ export const translations = {
     contact: {
       title: "Contactez-moi",
       intro:
-        "À la recherche d’un alternant dès septembre 2025 ou d’un collaborateur sur un projet web ? Discutons-en dès maintenant.",
+        "À la recherche d’un développeur Full Stack pour un stage de fin d’études ou d’un collaborateur sur un projet web ? Discutons-en.",
       form: {
         nameLabel: "Nom",
         namePlaceholder: "Votre nom",
@@ -175,7 +175,8 @@ export const translations = {
           "Décrivez votre projet ou vos besoins techniques ici.",
         submit: "Envoyer",
         sending: "Envoi en cours...",
-        feedback: "Merci ! Votre client mail va s’ouvrir pour finaliser l’envoi.",
+        feedback: "Merci ! Votre message a bien été envoyé.",
+        error: "Une erreur est survenue. Réessayez ou écrivez-moi directement par email.",
       },
       asideTitle: "Coordonnées directes",
       asideDescription:
@@ -194,7 +195,7 @@ export const translations = {
       },
     },
     footer: {
-      message: "Portfolio conçu avec Next.js & TailwindCSS",
+      message: "Portfolio conçu avec Next.js & TailwindCSS — © 2026 Silamakan K.",
     },
     toggles: {
       theme: {
@@ -226,17 +227,17 @@ export const translations = {
       badge: "Full-Stack Developer · EEMI Master’s Program",
       name: "Silamakan KAMISSOKO",
       description:
-        "Master’s student in Lead Full-Stack Development (EEMI Paris, Bac+5), passionate about building secure, high-performance web and mobile applications. I combine technical expertise and attention to detail to design scalable, reliable, and user-focused digital products.",
+        "Full-Stack Developer seeking a final-year internship (Master’s level, EEMI Paris). Proficient in backend architectures (Java Spring Boot, Node.js, Ruby on Rails), web & mobile development (Flutter, Kotlin), and DevOps tooling. Comfortable in Agile environments, looking to contribute to a high-impact project.",
       highlights: [
-        "Web & Mobile Development",
-        "Cybersecurity and DevOps",
-        "AI Integration & Automation",
+        "Web & Mobile Development (Flutter, Kotlin)",
+        "Backend & Secure REST APIs",
+        "DevOps & Cloud (Docker, CI/CD)",
       ],
       ctaProjects: "View my projects",
       ctaContact: "Get in touch",
-      locationTag: "Based in Stains, Île-de-France, France",
-      rhythmTag: "3 weeks in-company · 1 week at school",
-      availabilityTag: "Available from September 2025",
+      locationTag: "Paris, Île-de-France",
+      rhythmTag: "Final-year internship · Master’s level",
+      availabilityTag: "Available now",
       portraitRole: "Full-Stack Developer",
       portraitDegree: "Lead Developer Master’s Degree · EEMI Paris",
     },
@@ -256,21 +257,21 @@ export const translations = {
             company: "Akilee · Dakar",
             period: "May 2024 — July 2024",
             summary:
-              "Developed secure REST APIs, implemented unit testing, and collaborated with frontend teams to optimize data exchange and fix critical issues.",
+              "Designed secure REST APIs with Ruby on Rails, implemented unit tests, resolved critical production bugs, and optimised JSON endpoints in an Agile Scrum environment.",
           },
           {
             role: "Full-Stack Developer",
             company: "Soelog Suarl · Dakar",
             period: "Mar 2023 — Jul 2023",
             summary:
-              "Designed and implemented new PHP/Vue.js features, optimized SQL queries, improved performance, and maintained production reliability.",
+              "Built fullstack features in PHP/JavaScript, optimised SQL queries and caching to significantly reduce load times, and participated in code reviews and agile ceremonies.",
           },
           {
             role: "WordPress Developer",
             company: "Hebersenegal · Dakar",
             period: "Aug 2022 — Feb 2023",
             summary:
-              "Developed custom websites, ensured code security, fixed bugs, and supported clients with technical documentation and guidance.",
+              "Designed and developed custom WordPress sites, handled maintenance and security hardening, and produced technical documentation for clients.",
           },
         ],
         cta: "Explore my journey",
@@ -286,6 +287,7 @@ export const translations = {
       categories: {
         frontend: "Frontend",
         backend: "Backend",
+        mobile: "Mobile",
         databases: "Databases",
         devops: "DevOps",
         tools: "Tools",
@@ -312,7 +314,7 @@ export const translations = {
         phoneLabel: "Phone",
         locationLabel: "Location",
         availabilityLabel: "Availability",
-        availabilityValue: "Apprenticeship · 3 weeks in-company / 1 week at school",
+        availabilityValue: "Final-year internship · Available now",
       },
       education: {
         title: "Education",
@@ -372,7 +374,7 @@ export const translations = {
     contact: {
       title: "Get in Touch",
       intro:
-        "Looking for a full-stack developer apprentice starting in September 2025, or want to collaborate on a web project? Let’s talk!",
+        "Looking for a full-stack developer for a final-year internship, or want to collaborate on a web project? Let’s talk!",
       form: {
         nameLabel: "Name",
         namePlaceholder: "Your name",
@@ -382,7 +384,8 @@ export const translations = {
         messagePlaceholder: "Describe your project or technical needs here.",
         submit: "Send message",
         sending: "Sending...",
-        feedback: "Thank you! Your email client will open to complete the message.",
+        feedback: "Thank you! Your message has been sent successfully.",
+        error: "Something went wrong. Please try again or contact me directly by email.",
       },
       asideTitle: "Quick contact",
       asideDescription:
@@ -401,7 +404,7 @@ export const translations = {
       },
     },
     footer: {
-      message: "Portfolio built with Next.js & TailwindCSS — © 2025 Silamakan K.",
+      message: "Portfolio built with Next.js & TailwindCSS — © 2026 Silamakan K.",
     },
     toggles: {
       theme: {

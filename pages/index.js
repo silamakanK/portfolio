@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Link from "next/link";
 import HeroSection from "@/components/HeroSection";
 import SkillsGrid from "@/components/SkillsGrid";
@@ -6,10 +7,22 @@ import { projects } from "@/data/projects";
 import { useTranslations } from "@/context/LocaleContext";
 
 export default function Home() {
-  const { content } = useTranslations();
+  const { content, locale } = useTranslations();
   const featuredProjects = projects.slice(0, 2);
 
   return (
+    <>
+      <Head>
+        <title>Silamakan KAMISSOKO — Développeur Full Stack</title>
+        <meta
+          name="description"
+          content={
+            locale === "fr"
+              ? "Portfolio de Silamakan KAMISSOKO, développeur Full Stack étudiant en Mastère à l'EEMI Paris. Spécialisé en React, Next.js, Node.js, cybersécurité et DevOps."
+              : "Portfolio of Silamakan KAMISSOKO, Full-Stack Developer and Master's student at EEMI Paris. Specialized in React, Next.js, Node.js, cybersecurity and DevOps."
+          }
+        />
+      </Head>
     <div className="space-y-20">
       <HeroSection />
 
@@ -77,5 +90,6 @@ export default function Home() {
         </div>
       </section>
     </div>
+    </>
   );
 }

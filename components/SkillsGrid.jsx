@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import {
   SiReact,
   SiNextdotjs,
@@ -5,25 +6,29 @@ import {
   SiAngular,
   SiTailwindcss,
   SiHtml5,
+  SiTypescript,
   SiNodedotjs,
-  SiExpress,
-  SiSymfony,
+  SiSpring,
   SiRubyonrails,
+  SiSymfony,
+  SiPhp,
+  SiFlutter,
+  SiKotlin,
   SiPostgresql,
+  SiMysql,
   SiMongodb,
-  SiPrisma,
-  SiSequelize,
   SiDocker,
   SiGithubactions,
-  SiRailway,
-  SiSupabase,
-  SiRender,
+  SiKubernetes,
+  SiTerraform,
+  SiGit,
+  SiGithub,
   SiGitlab,
   SiVisualstudiocode,
   SiLinux,
   SiAndroidstudio,
 } from "react-icons/si";
-import { FiGithub, FiSettings } from "react-icons/fi";
+import { FiSettings } from "react-icons/fi";
 import { skills } from "@/data/skills";
 import { useTranslations } from "@/context/LocaleContext";
 
@@ -34,20 +39,23 @@ const iconMap = {
   Angular: SiAngular,
   TailwindCSS: SiTailwindcss,
   "HTML/CSS/JS": SiHtml5,
+  TypeScript: SiTypescript,
   "Node.js": SiNodedotjs,
-  "Express.js": SiExpress,
-  Symfony: SiSymfony,
+  "Java (Spring Boot)": SiSpring,
   "Ruby on Rails": SiRubyonrails,
+  Symfony: SiSymfony,
+  PHP: SiPhp,
+  Flutter: SiFlutter,
+  Kotlin: SiKotlin,
   PostgreSQL: SiPostgresql,
+  MySQL: SiMysql,
   MongoDB: SiMongodb,
-  Prisma: SiPrisma,
-  Sequelize: SiSequelize,
   Docker: SiDocker,
   "CI/CD": SiGithubactions,
-  Railway: SiRailway,
-  Supabase: SiSupabase,
-  Render: SiRender,
-  GitHub: FiGithub,
+  Kubernetes: SiKubernetes,
+  Terraform: SiTerraform,
+  Git: SiGit,
+  GitHub: SiGithub,
   GitLab: SiGitlab,
   "VS Code": SiVisualstudiocode,
   Linux: SiLinux,
@@ -68,6 +76,8 @@ function SkillBadge({ name }) {
     </div>
   );
 }
+
+SkillBadge.propTypes = { name: PropTypes.string.isRequired };
 
 export default function SkillsGrid() {
   const { content } = useTranslations();
