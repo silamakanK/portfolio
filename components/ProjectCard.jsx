@@ -1,5 +1,6 @@
+import PropTypes from "prop-types";
 import Link from "next/link";
-import { FiGithub } from "react-icons/fi";
+import { FiGithub, FiExternalLink } from "react-icons/fi";
 import { useTranslations } from "@/context/LocaleContext";
 
 const gradients = [
@@ -11,7 +12,7 @@ const gradients = [
 
 export default function ProjectCard({ project, index }) {
   const { locale, content } = useTranslations();
-  const { title, stack, description, github } = project;
+  const { title, stack, description, github, demo } = project;
   const gradient = gradients[index % gradients.length];
   const copy = content.projectCard;
 
@@ -44,22 +45,49 @@ export default function ProjectCard({ project, index }) {
             </span>
           ))}
         </div>
-        <div className="mt-6 flex items-center justify-between pt-4">
+        <div className="mt-6 flex items-center justify-between gap-3 pt-4">
           <span className="text-xs uppercase tracking-[0.3em] text-[var(--muted)]">
             {copy.openSource}
           </span>
-          <Link
-            href={github}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 rounded-full border px-4 py-2 text-sm font-semibold text-[var(--foreground)] transition hover:border-[var(--accent)] hover:text-[var(--accent)]"
-            style={{ borderColor: "var(--border)", backgroundColor: "var(--panel-muted)" }}
-          >
-            <FiGithub size={18} />
-            {copy.code}
-          </Link>
+          <div className="flex items-center gap-2">
+            {demo && (
+              <Link
+                href={demo}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 rounded-full bg-[var(--accent)] px-4 py-2 text-sm font-semibold text-white transition hover:shadow-lg hover:shadow-[var(--accent)]/40"
+              >
+                <FiExternalLink size={15} />
+                {copy.demo}
+              </Link>
+            )}
+            <Link
+              href={github}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-full border px-4 py-2 text-sm font-semibold text-[var(--foreground)] transition hover:border-[var(--accent)] hover:text-[var(--accent)]"
+              style={{ borderColor: "var(--border)", backgroundColor: "var(--panel-muted)" }}
+            >
+              <FiGithub size={18} />
+              {copy.code}
+            </Link>
+          </div>
         </div>
       </div>
     </article>
   );
 }
+
+ProjectCard.propTypes = {
+  project: PropTypes.shape({
+    title: PropTypes.string.isRequired,
+    stack: PropTypes.arrayOf(PropTypes.string).isRequired,
+    description: PropTypes.shape({
+      fr: PropTypes.string.isRequired,
+      en: PropTypes.string.isRequired,
+    }).isRequired,
+    github: PropTypes.string.isRequired,
+    demo: PropTypes.string,
+  }).isRequired,
+  index: PropTypes.number.isRequired,
+};

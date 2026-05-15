@@ -86,6 +86,7 @@ export const translations = {
     projectCard: {
       openSource: "Open source",
       code: "Code",
+      demo: "Demo live",
     },
     projectsPage: {
       title: "Projets",
@@ -296,6 +297,7 @@ export const translations = {
     projectCard: {
       openSource: "Open source",
       code: "Code",
+      demo: "Demo live",
     },
     projectsPage: {
       title: "Projects",

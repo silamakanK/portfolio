@@ -1,38 +1,39 @@
 export const projects = [
   {
+    title: "NutriSmart",
+    stack: ["Next.js", "AI", "Unsplash API"],
+    description: {
+      fr: "Assistant culinaire propulsé par l'IA qui génère des recettes personnalisées, planifie les repas et suit les apports nutritionnels selon les objectifs et intolérances de l'utilisateur.",
+      en: "AI-powered culinary assistant that generates personalised recipes, plans meals, and tracks nutritional intake based on user goals and dietary restrictions.",
+    },
+    github: "https://github.com/silamakanL/recipes_app",
+    demo: "https://recipes-app-lyart-theta.vercel.app/",
+  },
+  {
+    title: "Streemi",
+    stack: ["Symfony 7", "PHP 8.3", "PostgreSQL", "Docker", "TailwindCSS"],
+    description: {
+      fr: "Plateforme de streaming type Netflix réalisée avec Symfony 7. Catalogue films et séries, abonnements HD/4K, playlists, historique, commentaires modérés et backoffice admin complet.",
+      en: "Netflix-style streaming platform built with Symfony 7. Features a full film and series catalogue, HD/4K subscription plans, playlists, viewing history, moderated comments, and a complete admin backoffice.",
+    },
+    github: "https://github.com/silamakanL/streemi",
+  },
+  {
+    title: "PayApp",
+    stack: ["Node.js", "Express", "Vue.js", "PostgreSQL", "WebSocket"],
+    description: {
+      fr: "Plateforme de paiement en ligne modulaire : workflow synchrone/asynchrone, gestion marchands, émulateur PSP, remboursements partiels et tableaux de bord temps réel via WebSocket.",
+      en: "Modular online payment platform with synchronous and asynchronous workflows, merchant management, PSP emulator, partial refunds, and real-time dashboards via WebSocket.",
+    },
+    github: "https://github.com/silamakanL/pay_app",
+  },
+  {
     title: "Shape of You",
     stack: ["Symfony", "AI", "PostgreSQL"],
     description: {
-      fr: "Application qui détecte automatiquement les vêtements d’un utilisateur pour générer des recommandations personnalisées et durables, propulsées par des modèles d’IA.",
-      en: "An application that detects garments automatically to deliver sustainable, AI-driven outfit recommendations tailored to each user.",
+      fr: "Application qui détecte automatiquement les vêtements d'un utilisateur pour générer des recommandations de tenues personnalisées et durables, propulsées par l'IA.",
+      en: "Application that automatically detects a user's garments to generate personalised, sustainable outfit recommendations powered by AI.",
     },
-    github: "https://github.com/silamakanK/shape-of-you",
-  },
-  {
-    title: "SilDev",
-    stack: ["Next.js", "Node.js", "Prisma", "PostgreSQL"],
-    description: {
-      fr: "Plateforme full stack de suivi de projets tech qui centralise backlog, documentation d’architecture et checklists qualité pour les équipes produit en alternance.",
-      en: "Full-stack project tracking platform centralising backlog, architecture documentation, and quality checklists for product teams.",
-    },
-    github: "https://github.com/silamakanK/sildev",
-  },
-  {
-    title: "Akilee Secure APIs",
-    stack: ["Ruby on Rails", "OAuth2", "Docker", "PostgreSQL"],
-    description: {
-      fr: "Suite d’API REST sécurisées pour la distribution d’énergie, incluant authentification granulaire, monitoring des dépendances et batteries de tests automatisés.",
-      en: "Secure REST API suite for energy distribution with granular authentication, dependency monitoring, and automated test suites.",
-    },
-    github: "https://github.com/silamakanK/akilee-secure-apis",
-  },
-  {
-    title: "Soleil Connect",
-    stack: ["PHP", "Vue.js", "TailwindCSS", "MySQL"],
-    description: {
-      fr: "Refonte complète d’un portail client solaire avec optimisation des temps de chargement, dashboards temps réel et automatisation des rapports de maintenance.",
-      en: "Complete redesign of a solar customer portal with faster load times, real-time dashboards, and automated maintenance reporting.",
-    },
-    github: "https://github.com/silamakanK/soleil-connect",
+    github: "https://github.com/silamakanL/shapeofyou",
   },
 ];
