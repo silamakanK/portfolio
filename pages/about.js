@@ -117,7 +117,7 @@ export default function About() {
           <h2 className="text-2xl font-semibold text-[var(--foreground)]">{about.cv.title}</h2>
           <p className="mt-3 text-sm text-[var(--muted)]">{about.cv.description}</p>
           <Link
-            href="https://drive.google.com/file/d/1fWt3PDaRp-6XpsilNUhf4AVtSz1Wnfmx/view"
+            href="/cv.pdf"
             target="_blank"
             className="mt-5 inline-flex items-center gap-2 rounded-full bg-[var(--accent)] px-6 py-3 text-sm font-semibold text-white transition hover:shadow-lg hover:shadow-[var(--accent)]/30"
           >

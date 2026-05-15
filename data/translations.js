@@ -159,7 +159,7 @@ export const translations = {
         description:
           "Retrouvez le détail de mon parcours, de mes projets et de mes compétences dans mon CV complet au format PDF.",
         cta: "Télécharger le CV",
-        note: "Lien externe · Cliquez pour ouvrir le fichier PDF.",
+        note: "Fichier PDF · Cliquez pour ouvrir ou télécharger.",
       },
     },
     contact: {
@@ -370,7 +370,7 @@ export const translations = {
         description:
           "Download my complete resume to learn more about my background, projects, and technical skills.",
         cta: "Download the resume",
-        note: "External link · Opens the PDF file.",
+        note: "PDF file · Click to open or download.",
       },
     },
     contact: {
