@@ -1,26 +1,18 @@
 export const skills = [
   {
-    id: "frontend",
-    items: ["React", "Next.js", "Angular", "Vue.js", "TypeScript", "TailwindCSS", "HTML/CSS/JS"],
-  },
-  {
     id: "backend",
-    items: ["Java (Spring Boot)", "Node.js", "Ruby on Rails", "Symfony", "PHP"],
+    items: ["Java (Spring Boot)", "Node.js", "C#", "PHP", "Ruby on Rails", "Symfony", "Laravel", "API REST"],
   },
   {
-    id: "mobile",
-    items: ["Flutter", "Kotlin"],
+    id: "frontend",
+    items: ["Angular", "React", "Next.js", "Vue.js", "TypeScript", "TailwindCSS", "HTML5", "CSS3", "JavaScript"],
   },
   {
     id: "databases",
-    items: ["PostgreSQL", "MySQL", "MongoDB"],
+    items: ["PostgreSQL", "SQL", "JSON", "XML"],
   },
   {
     id: "devops",
-    items: ["Docker", "CI/CD", "Kubernetes", "Terraform", "Git"],
-  },
-  {
-    id: "tools",
-    items: ["GitHub", "GitLab", "Linux", "VS Code", "Android Studio"],
+    items: ["Docker", "Kubernetes", "Terraform", "Ansible", "Render", "Sentry", "UptimeRobot", "Git", "Linux"],
   },
 ];

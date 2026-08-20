@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
-import { FiArrowRight, FiSmartphone, FiServer, FiBox } from "react-icons/fi";
+import { FiArrowRight, FiServer, FiGitBranch, FiShield } from "react-icons/fi";
 import { useTranslations } from "@/context/LocaleContext";
 
-const highlightIcons = [FiSmartphone, FiServer, FiBox];
+const highlightIcons = [FiServer, FiGitBranch, FiShield];
 
 export default function HeroSection() {
   const { content } = useTranslations();

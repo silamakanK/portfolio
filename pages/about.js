@@ -49,7 +49,7 @@ export default function About() {
               <li>
                 <span className="font-medium text-[var(--foreground)]">{about.contactCard.locationLabel}</span>
                 <br />
-                Stains · Île-de-France
+                Paris · Île-de-France
               </li>
               <li>
                 <span className="font-medium text-[var(--foreground)]">{about.contactCard.availabilityLabel}</span>

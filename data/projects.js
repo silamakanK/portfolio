@@ -1,5 +1,15 @@
 export const projects = [
   {
+    title: "Mobili",
+    stack: ["Node.js", "Express", "PostgreSQL", "Prisma", "Docker", "GitHub Actions"],
+    description: {
+      fr: "Application de réservation de billets de transport (voyageur, agent, admin) avec pipeline CI/CD complet : tests automatisés (Jest, Supertest, Postman, couverture ≥ 70 %), analyse de code et sécurité (SonarCloud, npm audit), déploiement continu sur Render et Vercel, monitoring et alertes (Sentry, UptimeRobot).",
+      en: "Transport ticket booking platform (traveler, agent, admin roles) with a full CI/CD pipeline: automated testing (Jest, Supertest, Postman, ≥70% coverage), code and security analysis (SonarCloud, npm audit), continuous deployment on Render and Vercel, and monitoring/alerting (Sentry, UptimeRobot).",
+    },
+    github: "https://github.com/silamakanK/mobili",
+    demo: "https://mobili-seven.vercel.app/",
+  },
+  {
     title: "NutriSmart",
     stack: ["Next.js", "AI", "Unsplash API"],
     description: {

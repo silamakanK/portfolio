@@ -14,20 +14,20 @@ export const translations = {
       },
     },
     hero: {
-      badge: "Développeur Full Stack · Mastère EEMI",
+      badge: "Développeur Full Stack · DevOps · DevSecOps",
       name: "Silamakan KAMISSOKO",
       description:
-        "Développeur Full Stack en recherche d’un stage de fin d’études (Bac+5, EEMI Paris). Maîtrise des architectures backend (Java Spring Boot, Node.js, Ruby on Rails), du développement web & mobile (Flutter, Kotlin) et des outils DevOps. À l’aise en environnement Agile, je vise un projet à fort impact technique.",
+        "Développeur Full Stack (Bac+5 – EEMI Paris, 2026) avec 3 expériences en entreprise sur Java Spring Boot, Angular, PHP et Ruby on Rails, du backend à l’interface utilisateur. Pratique opérationnelle d’un pipeline CI/CD complet (tests automatisés, analyse de code, déploiement continu, monitoring) et de la sécurisation des applications (API, accès, dépendances). Disponible immédiatement pour un stage, un CDD ou un CDI.",
       highlights: [
-        "Développement Web & Mobile (Flutter, Kotlin)",
-        "Backend & API REST sécurisées",
-        "DevOps & Cloud (Docker, CI/CD)",
+        "Backend & API REST (Java, Node.js, PHP, Ruby on Rails)",
+        "Pipeline CI/CD complet (tests, analyse, déploiement)",
+        "Sécurisation des applications (API, accès, dépendances)",
       ],
       ctaProjects: "Découvrir mes projets",
       ctaContact: "Me contacter",
       locationTag: "Paris, Île-de-France",
-      rhythmTag: "Stage de fin d’études · Bac+5",
-      availabilityTag: "Disponible dès maintenant",
+      rhythmTag: "Stage, CDD ou CDI",
+      availabilityTag: "Disponible immédiatement",
       portraitRole: "Développeur Full Stack",
       portraitDegree: "Mastère Lead Dev Full Stack · EEMI Paris",
     },
@@ -44,24 +44,24 @@ export const translations = {
         cards: [
           {
             role: "Développeur Backend Ruby on Rails",
-            company: "Akilee · Dakar",
-            period: "Mai 2024 — Juillet 2024",
+            company: "Akilee",
+            period: "Mai 2025 — Novembre 2025",
             summary:
-              "Conception d’API REST sécurisées en Ruby on Rails, implémentation de tests unitaires, résolution de bugs critiques en production et optimisation des endpoints JSON en environnement Agile Scrum.",
+              "Conception et sécurisation d’API REST en Ruby on Rails consommées par l’équipe frontend React, optimisation des endpoints critiques (-30 % de temps de réponse), tests unitaires RSpec et résolution proactive de bugs critiques en production, en environnement Agile Scrum.",
           },
           {
-            role: "Développeur Full Stack",
-            company: "Soelog Suarl · Dakar",
-            period: "Mars 2023 — Juillet 2023",
+            role: "Développeur Fullstack",
+            company: "Soelog",
+            period: "Mars 2024 — Septembre 2024",
             summary:
-              "Développement de fonctionnalités fullstack PHP/JavaScript, optimisation SQL et mise en cache pour améliorer les performances, participation active aux revues de code et cérémonies agiles.",
+              "Développement de fonctionnalités fullstack (PHP, JavaScript/HTML5/CSS3), optimisation SQL et mise en cache Redis (-40 % de temps de chargement), intégration de services tiers via API REST et participation aux revues de code et cérémonies Agile.",
           },
           {
-            role: "Développeur WordPress",
-            company: "Hebersenegal · Dakar",
-            period: "Août 2022 — Février 2023",
+            role: "Développeur Web Fullstack",
+            company: "HeberSenegal",
+            period: "Août 2022 — Février 2024",
             summary:
-              "Conception et développement de sites WordPress sur mesure, maintenance corrective, sécurisation des plateformes et rédaction de documentation technique.",
+              "Développement d’applications Laravel (API REST, routes, middleware, authentification) et d’interfaces dynamiques avec Angular/TypeScript, montées de version et refactoring, analyse des besoins clients et rédaction de documentation technique.",
           },
         ],
         cta: "Voir tout mon parcours",
@@ -77,10 +77,8 @@ export const translations = {
       categories: {
         frontend: "Frontend",
         backend: "Backend",
-        mobile: "Mobile",
-        databases: "Bases de données",
-        devops: "DevOps",
-        tools: "Outils",
+        databases: "Bases de données & Échanges",
+        devops: "Infrastructure & Monitoring",
       },
     },
     projectCard: {
@@ -105,7 +103,7 @@ export const translations = {
         phoneLabel: "Téléphone",
         locationLabel: "Localisation",
         availabilityLabel: "Disponibilité",
-        availabilityValue: "Stage de fin d’études · Disponible dès maintenant",
+        availabilityValue: "Stage, CDD ou CDI · Disponible immédiatement",
       },
       education: {
         title: "Formations",
@@ -113,11 +111,11 @@ export const translations = {
           "Un parcours académique orienté vers l’excellence technique et la cybersécurité appliquée.",
         items: [
           {
-            title: "Mastère Lead Développeur Full Stack",
+            title: "Mastère Lead Développeur Full Stack (Bac+5 – Titre RNCP Niveau 7)",
             school: "EEMI Paris",
             period: "2024 — 2026",
             bullets: [
-              "Développement Web & Mobile : React, Next.js, Flutter, Node.js, PHP, Java, SQL & NoSQL",
+              "Développement Full Stack : Java (Spring Boot), Node.js, PHP, Angular, React, Next.js, TypeScript, SQL",
               "Architecture & API : conception sécurisée, WebSocket, scalabilité cloud (AWS, Azure, GCP)",
               "Cybersécurité : pentesting, chiffrement, RGPD, supervision applicative",
               "Méthodologies Agiles & Leadership : gestion d’équipe, Scrum, CI/CD et intégration continue",
@@ -225,20 +223,20 @@ export const translations = {
       },
     },
     hero: {
-      badge: "Full-Stack Developer · EEMI Master’s Program",
+      badge: "Full-Stack Developer · DevOps · DevSecOps",
       name: "Silamakan KAMISSOKO",
       description:
-        "Full-Stack Developer seeking a final-year internship (Master’s level, EEMI Paris). Proficient in backend architectures (Java Spring Boot, Node.js, Ruby on Rails), web & mobile development (Flutter, Kotlin), and DevOps tooling. Comfortable in Agile environments, looking to contribute to a high-impact project.",
+        "Full-Stack Developer (Master’s level – EEMI Paris, 2026) with 3 professional experiences spanning Java Spring Boot, Angular, PHP and Ruby on Rails, from backend to user interface. Hands-on experience with a complete CI/CD pipeline (automated testing, code analysis, continuous deployment, monitoring) and application security (APIs, access control, dependencies). Available immediately for an internship, fixed-term or permanent contract.",
       highlights: [
-        "Web & Mobile Development (Flutter, Kotlin)",
-        "Backend & Secure REST APIs",
-        "DevOps & Cloud (Docker, CI/CD)",
+        "Backend & REST APIs (Java, Node.js, PHP, Ruby on Rails)",
+        "Full CI/CD pipeline (testing, analysis, deployment)",
+        "Application security (APIs, access, dependencies)",
       ],
       ctaProjects: "View my projects",
       ctaContact: "Get in touch",
       locationTag: "Paris, Île-de-France",
-      rhythmTag: "Final-year internship · Master’s level",
-      availabilityTag: "Available now",
+      rhythmTag: "Internship, fixed-term or permanent",
+      availabilityTag: "Available immediately",
       portraitRole: "Full-Stack Developer",
       portraitDegree: "Lead Developer Master’s Degree · EEMI Paris",
     },
@@ -255,24 +253,24 @@ export const translations = {
         cards: [
           {
             role: "Backend Developer (Ruby on Rails)",
-            company: "Akilee · Dakar",
-            period: "May 2024 — July 2024",
+            company: "Akilee",
+            period: "May 2025 — November 2025",
             summary:
-              "Designed secure REST APIs with Ruby on Rails, implemented unit tests, resolved critical production bugs, and optimised JSON endpoints in an Agile Scrum environment.",
+              "Designed and secured REST APIs in Ruby on Rails consumed by the React frontend team, optimised critical endpoints (-30% response time), wrote RSpec unit tests, and proactively resolved critical production bugs in an Agile Scrum environment.",
           },
           {
             role: "Full-Stack Developer",
-            company: "Soelog Suarl · Dakar",
-            period: "Mar 2023 — Jul 2023",
+            company: "Soelog",
+            period: "Mar 2024 — Sep 2024",
             summary:
-              "Built fullstack features in PHP/JavaScript, optimised SQL queries and caching to significantly reduce load times, and participated in code reviews and agile ceremonies.",
+              "Built fullstack features (PHP, JavaScript/HTML5/CSS3), optimised SQL queries and added Redis caching (-40% load times), integrated third-party services via REST APIs, and took part in code reviews and Agile ceremonies.",
           },
           {
-            role: "WordPress Developer",
-            company: "Hebersenegal · Dakar",
-            period: "Aug 2022 — Feb 2023",
+            role: "Full-Stack Web Developer",
+            company: "HeberSenegal",
+            period: "Aug 2022 — Feb 2024",
             summary:
-              "Designed and developed custom WordPress sites, handled maintenance and security hardening, and produced technical documentation for clients.",
+              "Built Laravel applications (REST APIs, routing, middleware, authentication) and dynamic interfaces with Angular/TypeScript, handled version upgrades and refactoring, gathered client requirements, and wrote technical documentation.",
           },
         ],
         cta: "Explore my journey",
@@ -288,10 +286,8 @@ export const translations = {
       categories: {
         frontend: "Frontend",
         backend: "Backend",
-        mobile: "Mobile",
-        databases: "Databases",
-        devops: "DevOps",
-        tools: "Tools",
+        databases: "Databases & Data Exchange",
+        devops: "Infrastructure & Monitoring",
       },
     },
     projectCard: {
@@ -316,7 +312,7 @@ export const translations = {
         phoneLabel: "Phone",
         locationLabel: "Location",
         availabilityLabel: "Availability",
-        availabilityValue: "Final-year internship · Available now",
+        availabilityValue: "Internship, fixed-term or permanent · Available immediately",
       },
       education: {
         title: "Education",
@@ -324,11 +320,11 @@ export const translations = {
           "An academic background focused on full-stack development, security, and high-performing systems.",
         items: [
           {
-            title: "Lead Full-Stack Developer Master’s Degree",
+            title: "Lead Full-Stack Developer Master’s Degree (RNCP Level 7)",
             school: "EEMI Paris",
             period: "2024 — 2026",
             bullets: [
-              "Web & mobile development: React, Next.js, Flutter, Node.js, PHP, Java, SQL & NoSQL",
+              "Full-stack development: Java (Spring Boot), Node.js, PHP, Angular, React, Next.js, TypeScript, SQL",
               "Architecture & APIs: secure API design, WebSocket, and cloud scalability (AWS, Azure, GCP)",
               "Cybersecurity: pentesting, encryption, GDPR compliance, and monitoring",
               "Agile methodologies & leadership: Scrum Master, team management, CI/CD, and project delivery",

@@ -23,7 +23,7 @@ export default function Contact() {
     },
     {
       label: contact.socials.phone,
-      href: "tel:+33758042129",
+      href: "tel:+33758402129",
       icon: FiSmartphone,
       isExternal: false,
     },
